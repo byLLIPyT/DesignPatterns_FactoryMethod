@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         createExercise(exName: .jumping)
+        createExercise(exName: .squarts)
         runExercise()
     }
 
