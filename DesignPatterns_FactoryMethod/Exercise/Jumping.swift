@@ -14,7 +14,7 @@ class Jumping: Exercise {
     var type: String = "Exercise for legs"
     
     func start() {
-        print("Starts jump")
+        print("Start jump")
     }    
     func stop() {
         print("Stop jump")

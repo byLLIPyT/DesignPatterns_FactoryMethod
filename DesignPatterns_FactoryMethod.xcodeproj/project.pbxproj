@@ -16,6 +16,7 @@
 		AB2DB2AD23A80A4500B929C0 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2DB2AC23A80A4500B929C0 /* Exercise.swift */; };
 		AB2DB2AF23A80B1300B929C0 /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2DB2AE23A80B1300B929C0 /* Jumping.swift */; };
 		AB2DB2B223A810BD00B929C0 /* Squartz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2DB2B123A810BD00B929C0 /* Squartz.swift */; };
+		AB2DB2B423A8118000B929C0 /* FactoryExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2DB2B323A8118000B929C0 /* FactoryExercises.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AB2DB2AC23A80A4500B929C0 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		AB2DB2AE23A80B1300B929C0 /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
 		AB2DB2B123A810BD00B929C0 /* Squartz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squartz.swift; sourceTree = "<group>"; };
+		AB2DB2B323A8118000B929C0 /* FactoryExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryExercises.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		AB2DB29723A8097400B929C0 /* DesignPatterns_FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				AB2DB2B523A812D300B929C0 /* Factory */,
 				AB2DB29823A8097400B929C0 /* AppDelegate.swift */,
 				AB2DB29A23A8097400B929C0 /* SceneDelegate.swift */,
 				AB2DB2B023A8109F00B929C0 /* Exercise */,
@@ -70,6 +73,7 @@
 				AB2DB2A123A8097700B929C0 /* Assets.xcassets */,
 				AB2DB2A323A8097700B929C0 /* LaunchScreen.storyboard */,
 				AB2DB2A623A8097700B929C0 /* Info.plist */,
+				AB2DB2B323A8118000B929C0 /* FactoryExercises.swift */,
 			);
 			path = DesignPatterns_FactoryMethod;
 			sourceTree = "<group>";
@@ -82,6 +86,13 @@
 				AB2DB2B123A810BD00B929C0 /* Squartz.swift */,
 			);
 			path = Exercise;
+			sourceTree = "<group>";
+		};
+		AB2DB2B523A812D300B929C0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				AB2DB2AD23A80A4500B929C0 /* Exercise.swift in Sources */,
 				AB2DB29923A8097400B929C0 /* AppDelegate.swift in Sources */,
 				AB2DB2AF23A80B1300B929C0 /* Jumping.swift in Sources */,
+				AB2DB2B423A8118000B929C0 /* FactoryExercises.swift in Sources */,
 				AB2DB2B223A810BD00B929C0 /* Squartz.swift in Sources */,
 				AB2DB29B23A8097400B929C0 /* SceneDelegate.swift in Sources */,
 			);
